@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #16356d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background: #f7cac9;
+    padding: 20px;
+    border-radius: 10px;
+}
+form .keypad_bg{
+    background: #92a8d1;
+    border-radius: 10px;
+}
+  
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px rgb(209, 209, 209),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    margin: 10px;
+}
+form .keypad_bg input{
+    background-color: #f7cac9;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.operator{
+    color: #6200ff;
+}
